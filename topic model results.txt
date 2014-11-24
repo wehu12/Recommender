@@ -1,0 +1,65 @@
+LSA results....
+0.303*"work" + 0.252*"sale" + 0.244*"(inc." + 0.239*"experi" + 0.192*"•" + 0.187*"abil" + 0.187*"manager," + 0.186*"busi" + 0.180*"custom" + 0.147*"manag"
+-0.519*"(inc." + 0.261*"experi" + -0.245*"manager," + 0.200*"abil" + 0.195*"•" + -0.156*"assistant," + 0.140*"skill" + 0.137*"requir" + 0.125*"year" + 0.117*"must"
+-0.435*"sale" + 0.309*"(inc." + -0.245*"sales," + -0.239*"•" + -0.232*"busi" + 0.204*"experi" + -0.188*"marketing," + 0.186*"work" + -0.158*"management," + -0.140*"franchis"
+-0.835*"•" + 0.254*"sale" + -0.178*"(inc." + 0.162*"work" + 0.124*"sales," + 0.082*"entri" + 0.073*"marketing," + 0.070*"custom" + 0.064*"market" + 0.063*"must"
+-0.574*"truck" + -0.361*"work" + -0.207*"driver," + -0.204*"jobs," + 0.193*"sale" + -0.179*"training," + -0.178*"opportunity," + -0.171*"cdl" + -0.166*"driver" + -0.151*"drivers,"
+-0.519*"work" + 0.474*"truck" + -0.216*"opportunity," + 0.196*"sale" + 0.160*"training," + 0.157*"driver," + 0.145*"driver" + 0.140*"cdl" + -0.132*"home" + -0.131*"job,"
+-0.403*"sale" + -0.362*"•" + 0.298*"busi" + 0.253*"franchis" + 0.154*"accountant," + 0.146*"manager," + 0.134*"owner," + 0.126*"president," + 0.125*"food," + 0.125*"director,"
+0.352*"experi" + 0.310*"entri" + 0.266*"marketing," + 0.207*"management," + -0.201*"sale" + 0.165*"level," + -0.157*"work" + 0.156*"level" + 0.139*"relations," + -0.135*"insur"
+0.502*"experi" + -0.450*"abil" + -0.201*"must" + -0.175*"requir" + 0.172*"year" + -0.167*"perform" + -0.149*"entri" + 0.127*"opportunity," + 0.121*"work" + -0.119*"abl"
+-0.359*"sale" + -0.275*"abil" + 0.244*"insur" + 0.229*"opportun" + 0.205*"aflac" + 0.176*"compani" + 0.155*"job" + 0.143*"provid" + 0.142*"entri" + 0.117*"one"
+-0.437*"manag" + 0.311*"must" + 0.219*"insur" + 0.196*"aflac" + 0.189*"experi" + -0.178*"job" + -0.175*"-" + 0.159*"requir" + -0.155*"respons" + -0.144*"|"
+0.906*"-" + -0.137*"manag" + -0.100*"respons" + 0.088*"busi" + 0.087*"insur" + -0.084*"job" + 0.082*"aflac" + -0.078*"experi" + -0.075*"servic" + -0.069*"custom"
+-0.432*"abil" + 0.430*"must" + -0.257*"insur" + -0.250*"aflac" + 0.208*"-" + -0.171*"skill" + 0.137*"abl" + -0.123*"strong" + -0.112*"sales," + 0.109*"nurs"
+0.273*"manag" + -0.267*"must" + -0.264*"skill" + 0.248*"respons" + -0.189*"custom" + 0.133*"manager," + 0.133*"-" + 0.126*"|" + 0.126*"perform" + -0.118*"opportun"
+-0.411*"must" + -0.336*"manag" + 0.301*"custom" + 0.261*"servic" + -0.233*"busi" + -0.149*"abl" + 0.135*"care" + -0.130*"outsid" + -0.128*"|" + 0.127*"sale"
+0.296*"manager," + 0.284*"job" + -0.283*"custom" + -0.200*"servic" + -0.193*"busi" + 0.185*"abil" + 0.165*"offic" + 0.161*"sale" + 0.144*"account" + 0.121*"contact"
+0.270*"respons" + -0.268*"manag" + -0.228*"care" + -0.221*"nurs" + -0.218*"manager," + -0.184*"health" + 0.183*"custom" + -0.162*"|" + -0.128*"home" + 0.124*"experi"
+0.345*"custom" + 0.327*"manager," + 0.266*"must" + 0.221*"servic" + -0.173*"requir" + -0.166*"marketing," + -0.163*"entri" + 0.136*"sales," + -0.131*"market" + 0.129*"-"
+0.312*"|" + 0.293*"manag" + -0.257*"manager," + 0.241*"restaur" + -0.221*"respons" + 0.171*"experience," + 0.135*"aflac" + 0.128*"insur" + 0.128*"must" + 0.123*"(inc."
+0.416*"requir" + -0.214*"respons" + -0.182*"must" + 0.177*"custom" + 0.166*"perform" + -0.158*"skill" + -0.142*"strong" + -0.140*"excel" + -0.136*"commun" + 0.135*"job"
+
+LDA results without tf-idf...
+Top 10 terms for topic #0: sale, busi, sales,, market, outsid, franchis, ·, manag, success, account
+Top 10 terms for topic #1: manag, project, solut, data, experi, support, network, secur, system, technolog
+Top 10 terms for topic #2: opportun, offic, job, contact, administr, staf, us, officeteam, equal, locat
+Top 10 terms for topic #3: retail, year, work, school, store, day, information:, licens, servic, hour
+Top 10 terms for topic #4: manager,, management,, marketing,, sales,, work, entri, assistant,, custom, service,, busi
+Top 10 terms for topic #5: custom, servic, owner,, /, restaurant,, restaur, mechanic,, level, manag, teacher,
+Top 10 terms for topic #6: •, develop, sql, busi, ,, applic, web, tax, experi, requir
+Top 10 terms for topic #7: legal, servic, –, work, receptionist, addit, profession, train, include:, consult
+Top 10 terms for topic #8: abil, skill, work, experi, commun, strong, excel, custom, manag, must
+Top 10 terms for topic #9: experi, year, degre, relat, prefer, account, preferred., minimum, required., candid
+Top 10 terms for topic #10: job, truck, driver,, descript, cdl, see, pleas, refer, driver, class
+Top 10 terms for topic #11: knowledg, develop, manag, understand, experi, busi, design, system, process, product
+Top 10 terms for topic #12: abil, work, perform, requir, may, abl, must, employe, and/or, lift
+Top 10 terms for topic #13: must, work, employ, drug, equal, background, opportun, servic, check, abl
+Top 10 terms for topic #14: (inc., mechan, automot, engin, electr, engineer,, operative,, design,, manufactur, engineering,
+Top 10 terms for topic #15: experi, year, must, requir, volt, knowledg, high, /, minimum, school
+Top 10 terms for topic #16: -, pleas, resum, ., call, submit, email, posit, appli, pay
+Top 10 terms for topic #17: nurs, health, care, state, medic, current, licens, regist, clinic, nurse,
+Top 10 terms for topic #18: benefit, offer, insur, opportun, competit, compani, paid, employe, great, plan
+Top 10 terms for topic #19: *, north, nearli, list, america, admir, magazin, information., provid, support.
+
+LDA results with tf-idf...
+Top 10 terms for topic #0: officeteam, singl, support., branch, fortun, 90,000, additionally,, nearli, today, 1.800.804.8367
+Top 10 terms for topic #1: cnc, 877, tech, .net, machin, “one, people., x, lath, reimbursement,
+Top 10 terms for topic #2: connect, world', north, #1, qualifications., temporari, largest, labor,, nights,, workforce.
+Top 10 terms for topic #3: (inc., required!, transport, information:, duration:, reliabl, nurse,, positions., night, temp
+Top 10 terms for topic #4: week., fx:, ste., contact:, suite:, multitask, clean, transport, electrician,, mobil
+Top 10 terms for topic #5: 3-5, description), you:, 5, window, server, year, transport, sql, monitor
+Top 10 terms for topic #6: must, school, *, high, diploma, licens, drug, year, experi, abl
+Top 10 terms for topic #7: :, mortgag, investor,, supervisor, psychology,, invest,, sharepoint, holidays., code, solidworks,
+Top 10 terms for topic #8: franchis, workforc, receptionist, opportunity,, sale, real, half, job,, estat, relations,
+Top 10 terms for topic #9: nurs, driver,, avi, current, rn, employer,, clinic, 100, care, cpr
+Top 10 terms for topic #10: •, abil, experi, skill, manag, -, work, strong, offic, custom
+Top 10 terms for topic #11: admir, loan, enabl, sitel, essenti, assembly,, accommod, featur, made, rental,
+Top 10 terms for topic #12: ., volt, therapi, contact:, often, studi, css,, salary,, co, doctor
+Top 10 terms for topic #13: automot, ph:, ,, mechanic,, repair,, repair, •abil, llc, bi-lingu, highest
+Top 10 terms for topic #14: ·, benefit, magazin, insur, america, packages., rank, compens, opportun, rang
+Top 10 terms for topic #15: job, refer, descript, view, pleas, requir, privileg, ownership,, basis., repetit
+Top 10 terms for topic #16: sql, java,, web, nine, functions., testing,, sql,, store,, java, html,
+Top 10 terms for topic #17: location:, physician, electr, 1-3, engin, test, design, locations., plc, 5+
+Top 10 terms for topic #18: see, descript, job, description., pleas, ad., c#,, home,, asp.net,, pt
+Top 10 terms for topic #19: manager,, sales,, management,, sale, truck, marketing,, entri, service,, jobs,, busi
