@@ -11,7 +11,7 @@ def readAppData():
 			apps_split=applications.split("\t")
 			for ins in apps_split:
 				apps[UserID].append(ins)
-	return apps	
+	return apps
 
 def readPopularData():
 	with open("./data/popular_jobs.csv","r") as pf:
@@ -24,24 +24,20 @@ def readPopularData():
 			apps_split=applications.split("\t")
 			for ins in apps_split:
 				pops[UserID].append(ins)
-	return pops			
+	return pops
 
 def Compare():
 	apps=readAppData()
 	pops=readPopularData()
-	a_key=apps.keys()
-	p_key=pops.keys()
 	a=[]; p=[]
 	count=0
-	for i in a_key:
-		for j in p_key:
-			if i==j:
-				count+=1
-				a.append(apps[i])
-				p.append(pops[j])
+	for i in apps:
+		if i in pops:
+			a.append(apps[i])
+			p.append(pops[i])
 	print count
-	print len(a)	
+	print len(a)
 	print len(b)
 
 
-Compare()	
+Compare()

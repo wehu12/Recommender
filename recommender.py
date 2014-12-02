@@ -10,6 +10,7 @@ users =gl.SFrame.read_csv(wd + "users.tsv",header=True, delimiter='\t')
 
 trainset =apps[apps['Split']=="Train"]
 testset=apps[apps['Split']=="Test"]
+testusers = set(testset['UserID'])
 
 #simple recommender
 model1 = gl.recommender.create(apps,user_id = 'UserID',item_id='JobID')
@@ -17,6 +18,6 @@ model1 = gl.recommender.create(apps,user_id = 'UserID',item_id='JobID')
 
 with open(wd+"Basic CF output.csv", "w") as outfile:
     outfile.write("UserId, JobIds\n")
-    for userID in testset['UserID']:
+    for userID in testusers:
         jobs = model1.recommend(users=[userID],k=150)['JobID']
         outfile.write(str(userID) + "," + " ".join([x[0] for x in jobs]) + "\n")
