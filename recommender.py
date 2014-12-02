@@ -2,6 +2,15 @@ import graphlab as gl
 
 
 wd = "/Users/linahu/Documents/Developer/CareerBuilder/"
+n_recs = 50
+
+def write_to_file(model,testusers,filename)
+    with open(filename, "w") as outfile:
+        outfile.write("UserId, JobIds\n")
+        for userID in list(testusers):
+            jobs = model1.recommend(users=[userID],k=n_recs)['JobID']
+            outfile.write(str(userID) + "," + " ".join([x for x in jobs]) + "\n")
+
 
 jobs = gl.SFrame.read_csv(wd + "jobs.tsv",header=True, delimiter='\t')
 userHistory =gl.SFrame.read_csv(wd + "user_history.tsv",header=True, delimiter='\t')
@@ -15,9 +24,5 @@ testusers = set(testset['UserID'])
 #simple recommender
 model1 = gl.recommender.create(apps,user_id = 'UserID',item_id='JobID')
 
-
-with open(wd+"Basic CF output.csv", "w") as outfile:
-    outfile.write("UserId, JobIds\n")
-    for userID in testusers:
-        jobs = model1.recommend(users=[userID],k=150)['JobID']
-        outfile.write(str(userID) + "," + " ".join([x[0] for x in jobs]) + "\n")
+#write recommendations to file
+write_to_file(model,test_users,wd+"Basic CF.csv")
