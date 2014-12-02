@@ -29,13 +29,19 @@ def readPopularData():
 def Compare():
 	apps=readAppData()
 	pops=readPopularData()
+	a_key=apps.keys()
+	p_key=pops.keys()
 	a=[]; p=[]
-	for app in apps:
-		for pop in pops:
-			if app == pops:
-				a.append(apps[app])
-				p.append(pops[pop])
-	result=mapk(a,p)			
-	print result
+	count=0
+	for i in a_key:
+		for j in p_key:
+			if i==j:
+				count+=1
+				a.append(apps[i])
+				p.append(pops[j])
+	print count
+	print len(a)	
+	print len(b)
+
 
 Compare()	
