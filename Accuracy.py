@@ -4,31 +4,10 @@
 # https://github.com/benhamner/Metrics/blob/master/Python/ml_metrics/average_precision.py
 # https://github.com/benhamner/Metrics/blob/master/Python/ml_metrics/test/test_average_precision.py
 
-
+import csv
 import numpy as np
 
-def apk(actual, predicted, k=10):
-	"""
-	Computes the average precision at k.
-
-	This function computes the average prescision at k between two lists of
-	items.
-
-	Parameters
-	----------
-	actual : list
-			 A list of elements that are to be predicted (order doesn't matter)
-	predicted : list
-				A list of predicted elements (order does matter)
-	k : int, optional
-		The maximum number of predicted elements
-
-	Returns
-	-------
-	score : double
-			The average precision at k over the input lists
-
-	"""
+def apk(actual, predicted, k):
 	if len(predicted)>k:
 		predicted = predicted[:k]
 
@@ -46,37 +25,51 @@ def apk(actual, predicted, k=10):
 	return score / min(len(actual), k)
 
 def mapk(actual, predicted):
-	k=10
-	"""
-	Computes the mean average precision at k.
-
-	This function computes the mean average prescision at k between two lists
-	of lists of items.
-
-	Parameters
-	----------
-	actual : list
-	         A list of lists of elements that are to be predicted 
-	         (order doesn't matter in the lists)
-	predicted : list
-	            A list of lists of predicted elements
-	            (order matters in the lists)
-	k : int, optional
-	    The maximum number of predicted elements
-
-	Returns
-	-------
-	score : double
-	        The mean average precision at k over the input lists
-
-	"""
+	k=50
 	return np.mean([apk(a,p,k) for a,p in zip(actual, predicted)])
 
 
-# def test():
-# 	correct=[[1,2,3],[2,2,2]]
-# 	predicted=[[3,2,6,7],[2,2,2]]
-# 	result=mapk(correct,predicted)
-# 	print result
+def readAppData():
+	with open("./data/app_cleaned.csv","r") as af:
+		reader = csv.reader(af, delimiter=",",
+			quoting=csv.QUOTE_NONE, quotechar="")
+		apps=dict()
+		for line in reader:
+			(UserID, applications)=line
+			apps[UserID]=[]
+			apps_split=applications.split("\t")
+			for ins in apps_split:
+				apps[UserID].append(ins)
+	return apps	
 
-# test()	
+def readPopularData():
+	with open("./data/popular_jobs.csv","r") as pf:
+		reader = csv.reader(pf, delimiter=",",
+			quoting=csv.QUOTE_NONE, quotechar="")
+		pops=dict()
+		reader.next()
+		for line in reader:
+			(UserID, applications)=line
+			pops[UserID]=[]
+			apps_split=applications.split(" ")
+			for ins in apps_split:
+				pops[UserID].append(ins)
+	return pops			
+
+def Compare():
+	apps=readAppData()
+	pops=readPopularData()
+	a_key=apps.keys()
+	p_key=pops.keys()
+	a=[]; p=[]
+	count=0
+	for i in a_key:
+		if i in p_key:
+			a.append(apps[i])
+			p.append(pops[i])
+	baseResult=mapk(a,p)		
+	print baseResult
+
+
+
+Compare()	
