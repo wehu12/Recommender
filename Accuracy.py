@@ -29,8 +29,8 @@ def mapk(actual, predicted):
 	return np.mean([apk(a,p,k) for a,p in zip(actual, predicted)])
 
 
-def readAppData():
-	with open("./data/app_cleaned.csv","r") as af:
+def readAppData(filename):
+	with open(filename,"r") as af:
 		reader = csv.reader(af, delimiter=",",
 			quoting=csv.QUOTE_NONE, quotechar="")
 		apps=dict()
@@ -42,34 +42,34 @@ def readAppData():
 				apps[UserID].append(ins)
 	return apps	
 
-def readPopularData():
-	with open("./data/popular_jobs.csv","r") as pf:
-		reader = csv.reader(pf, delimiter=",",
+def readPrecData(filename):
+	with open(filename,"r") as af:
+		reader = csv.reader(af, delimiter=",",
 			quoting=csv.QUOTE_NONE, quotechar="")
-		pops=dict()
-		reader.next()
+		apps=dict()
 		for line in reader:
 			(UserID, applications)=line
-			pops[UserID]=[]
+			apps[UserID]=[]
 			apps_split=applications.split(" ")
 			for ins in apps_split:
-				pops[UserID].append(ins)
-	return pops			
+				apps[UserID].append(ins)
+	return apps	
 
 def Compare():
-	apps=readAppData()
-	pops=readPopularData()
-	a_key=apps.keys()
-	p_key=pops.keys()
+	pred=readPrecData('./Basic_CF.csv')
+	act=readAppData('./window1.csv')
+	p_key=pred.keys()
+	a_key=act.keys()
 	a=[]; p=[]
 	count=0
 	for i in a_key:
 		if i in p_key:
-			a.append(apps[i])
-			p.append(pops[i])
+			a.append(act[i])
+			p.append(pred[i])
 	baseResult=mapk(a,p)		
 	print baseResult
-
-
+	for item in a[2]:
+		if item in p[2]:
+			print item
 
 Compare()	
