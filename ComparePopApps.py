@@ -5,7 +5,6 @@ def readAppData():
 		reader = csv.reader(af, delimiter=",",
 			quoting=csv.QUOTE_NONE, quotechar="")
 		apps=dict()
-		i=0
 		for line in reader:
 			(UserID, applications)=line
 			apps[UserID]=[]
@@ -19,7 +18,6 @@ def readPopularData():
 		reader = csv.reader(pf, delimiter=",",
 			quoting=csv.QUOTE_NONE, quotechar="")
 		pops=dict()
-		i=0
 		for line in reader:
 			(UserID, applications)=line
 			pops[UserID]=[]
