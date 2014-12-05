@@ -1,0 +1,64 @@
+Pointers
+------------
+0x10012d626
+0x1009d7e82
+0x100b9919f
+0x100d8352e
+0x100b6dad7
+0x100adac7e
+0x100b0c728
+0x100bc9192
+0x100860937
+0x100023138
+0x100023064
+0x1006e0127
+0x1007050c3
+0x1007033c7
+0x1000e62da
+0xd7c899
+0xd7c72a
+0xd80fc9
+Raw
+------------
+0   unity_server                        0x000000010012d626 _Z18__print_back_tracev + 166
+1   unity_server                        0x00000001009d7e82 _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 675938
+2   unity_server                        0x0000000100b9919f _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 2515839
+3   unity_server                        0x0000000100d8352e _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 4523790
+4   unity_server                        0x0000000100b6dad7 _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 2337975
+5   unity_server                        0x0000000100adac7e _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 1736286
+6   unity_server                        0x0000000100b0c728 _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 1939720
+7   unity_server                        0x0000000100bc9192 _ZN8graphlab17variant_deep_loadERN5boost7variantINS0_6detail7variant14recursive_flagINS_13flexible_typeEEENSt3__110shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENS8_INS_10model_baseEEENS8_INS_17unity_sframe_baseEEENS8_INS_17unity_sarray_baseEEENS7_3mapINS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS0_18recursive_variant_ENS7_4lessISO_EENSM_INS7_4pairIKSO_SP_EEEEEENS7_6vectorISP_NSM_ISP_EEEENS0_17recursive_wrapperINS_21function_closure_infoEEENS3_5void_ES13_S13_S13_S13_S13_S13_S13_S13_S13_S13_EERNS_8iarchiveE + 2712434
+8   unity_server                        0x0000000100860937 _ZN8graphlab12unity_global11run_toolkitENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_3mapIS7_N5boost7variantINS9_6detail7variant14recursive_flagINS_13flexible_typeEEENS1_10shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENSG_INS_10model_baseEEENSG_INS_17unity_sframe_baseEEENSG_INS_17unity_sarray_baseEEENS8_IS7_NS9_18recursive_variant_ENS1_4lessIS7_EENS5_INS1_4pairIKS7_SQ_EEEEEENS1_6vectorISQ_NS5_ISQ_EEEENS9_17recursive_wrapperINS_21function_closure_infoEEENSC_5void_ES14_S14_S14_S14_S14_S14_S14_S14_S14_S14_EESS_NS5_INST_ISU_S15_EEEEEE + 1239
+9   unity_server                        0x0000000100023138 _ZN6cppipc6detail27exec_and_serialize_responseIN8graphlab30toolkit_function_response_typeENS2_17unity_global_baseEMS4_FS3_NSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_3mapISB_N5boost7variantINSD_6detail7variant14recursive_flagINS2_13flexible_typeEEENS5_10shared_ptrINS2_17unity_sgraph_baseEEENS2_11dataframe_tENSK_INS2_10model_baseEEENSK_INS2_17unity_sframe_baseEEENSK_INS2_17unity_sarray_baseEEENSC_ISB_NSD_18recursive_variant_ENS5_4lessISB_EENS9_INS5_4pairIKSB_SU_EEEEEENS5_6vectorISU_NS9_ISU_EEEENSD_17recursive_wrapperINS2_21function_closure_infoEEENSG_5void_ES18_S18_S18_S18_S18_S18_S18_S18_S18_S18_EESW_NS9_INSX_ISY_S19_EEEEEEEJSB_S1D_EE4execEPS4_PNS_11comm_serverES1F_RNS2_8oarchiveERSB_S1D_ + 88
+10  unity_server                        0x0000000100023064 _ZN6cppipc11comm_server15register_objectIN8graphlab17unity_sgraph_baseEEEmNSt3__110shared_ptrIT_EE + 1300
+11  unity_server                        0x00000001006e0127 _ZN6cppipc11comm_server8callbackERN8libfault14zmq_msg_vectorES3_ + 3447
+12  unity_server                        0x00000001007050c3 _ZNSt3__16__treeINS_12__value_typeIPvmEENS_19__map_value_compareIS2_S3_NS_4lessIS2_EELb1EEENS_9allocatorIS3_EEE7destroyEPNS_11__tree_nodeIS3_S2_EE + 129475
+13  unity_server                        0x00000001007033c7 _ZNSt3__16__treeINS_12__value_typeIPvmEENS_19__map_value_compareIS2_S3_NS_4lessIS2_EELb1EEENS_9allocatorIS3_EEE7destroyEPNS_11__tree_nodeIS3_S2_EE + 122055
+14  unity_server                        0x00000001000e62da _ZN5boost6thread21start_thread_noexceptEv + 378
+15  libsystem_pthread.dylib             0x0000000000d7c899 _pthread_body + 138
+16  libsystem_pthread.dylib             0x0000000000d7c72a _pthread_struct_init + 0
+17  libsystem_pthread.dylib             0x0000000000d80fc9 thread_start + 13
+
+Demangled
+------------
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+-------------------------------------------------------
+
+
