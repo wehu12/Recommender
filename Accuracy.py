@@ -55,9 +55,9 @@ def readPrecData(filename):
 				apps[UserID].append(ins)
 	return apps	
 
-def Compare():
-	pred=readPrecData('./Basic_CF.csv')
-	act=readAppData('./window1.csv')
+def Compare(act,pred):
+	pred=readPrecData(pred)
+	act=readAppData(act)
 	p_key=pred.keys()
 	a_key=act.keys()
 	a=[]; p=[]
