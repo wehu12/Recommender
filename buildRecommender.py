@@ -13,7 +13,7 @@ userEdu = userAll.select_columns(['UserID', 'DegreeType', 'Major'])
 userExp = userAll.select_columns(['UserID', 'WorkHistory', 'TotalYearsExperience', 'CurrentlyEmployed'])
 userLocEdu = userAll.select_columns(['UserID', 'City', 'State', 'Country', 'DegreeType', 'Major'])
 userLocExp = userAll.select_columns(['UserID', 'City', 'State', 'Country', 'WorkHistory', 'TotalYearsExperience', 'CurrentlyEmployed'])
-userEduExp = userAll.select_olumns(['UserID', 'DegreeType', 'Major', 'WorkHistory', 'TotalYearsExperience', 'CurrentlyEmployed'])
+userEduExp = userAll.select_columns(['UserID', 'DegreeType', 'Major', 'WorkHistoryCount', 'TotalYearsExperience', 'CurrentlyEmployed'])
 
 # ranking factorization recommender
 modelAll = gl.recommender.ranking_factorization_recommender.create(apps,user_id = 'UserID',item_id='JobID',user_data=userAll,item_data=jobs)
